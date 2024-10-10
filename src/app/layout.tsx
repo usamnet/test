@@ -24,7 +24,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+      <html lang="ar" dir="rtl">
+  <head>
+    <meta charSet="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>صحافة نت - Sahafa Net</title>
+  </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

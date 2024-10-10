@@ -1,0 +1,77 @@
+
+.videoGallery {
+    background-color: #DFDFDF;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .sponsoredTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: right;
+  }
+  
+  .videoGrid {
+    display: flex;
+    gap: 10px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    justify-content: flex-start;
+  }
+  
+  .videoItem {
+    flex: 0 0 auto;
+    width: 200px;
+    background-color: transparent;
+    margin-right: 10px;
+  }
+  
+  .thumbnail {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .videoInfo {
+    padding: 10px;
+  }
+  
+  .title {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #000;
+    text-align: right;
+    text-decoration: none;
+  }
+  
+  .duration {
+    font-size: 0.875rem;
+    color: #666;
+    text-align: right;
+    display: block;
+  }
+  
+  .category {
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: #000;
+    text-align: right;
+    text-decoration: none;
+    display: block;
+    margin-top: 5px;
+  }
+  
+  @media (min-width: 768px) {
+      .md\:w-1\/2 {  /* تم إضافة الهروب للرموز الخاصة */
+          width: 70%;
+      }
+  }  /* تم إضافة القوس المفقود هنا */
+  
+  @media (max-width: 768px) {
+      .md\:w-1\/2 {
+          width: 70%;
+      }
+  }
